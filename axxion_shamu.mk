@@ -29,6 +29,8 @@ $(call inherit-product, vendor/axxion/config/common.mk)
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/moto/shamu/device.mk)
 
+TARGET_BOOTANIMATION_SIZE := 1440
+
 PRODUCT_NAME := axxion_shamu
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := google
