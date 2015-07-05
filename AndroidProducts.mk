@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_shamu.mk \
-    $(LOCAL_DIR)/omni_shamu.mk
+    $(LOCAL_DIR)/axxion_shamu.mk
